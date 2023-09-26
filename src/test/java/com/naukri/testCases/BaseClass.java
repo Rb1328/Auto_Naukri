@@ -26,7 +26,7 @@ public class BaseClass  extends ExcelData{
 
 	@BeforeTest
 	public static void launchChrome() {
-		System.setProperty("webdriver.edge.driver",System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
+		System.setProperty("webdriver.edge.driver",System.getProperty("user.dir")+"//Drivers//msedgedriver.exe");
 		 driver=new EdgeDriver();
 		 
 		
